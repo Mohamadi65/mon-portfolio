@@ -213,56 +213,6 @@ button:disabled {
     font-weight: 700;
   }
 
-  .btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 3.25rem;
-  border-radius: 999px;
-  background: #020617;
-  color: #ffffff !important;
-  padding: 0.85rem 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1;
-  transition:
-    background 180ms ease,
-    transform 180ms ease,
-    box-shadow 180ms ease;
-}
-
-.btn-primary:hover {
-  background: #1e293b;
-  color: #ffffff !important;
-  transform: translateY(-1px);
-}
-
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 3.25rem;
-  border-radius: 999px;
-  border: 1px solid #cbd5e1;
-  background: #ffffff;
-  color: #020617 !important;
-  padding: 0.85rem 1.5rem;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1;
-  transition:
-    background 180ms ease,
-    transform 180ms ease,
-    border-color 180ms ease;
-}
-
-.btn-secondary:hover {
-  background: #ffffff;
-  color: #020617 !important;
-  border-color: rgba(37, 99, 235, 0.4);
-  transform: translateY(-1px);
-}
-
   .grid-bg {
     background-image:
       linear-gradient(to right, rgba(148, 163, 184, 0.16) 1px, transparent 1px),

@@ -1,0 +1,74 @@
+{
+
+  "nav.interventions": "INTERVENTIONS",
+  "nav.act": "ACT",
+  "nav.management": "MANAGEMENT SPACE",
+  "nav.publicSite": "Public Site",
+  "nav.logout": "LOGOUT",
+  "nav.persons": "PERSONS",
+  "nav.families": "FAMILIES",
+  "nav.schools": "SCHOOLS",
+  "nav.villages": "VILLAGES",
+  "nav.jobs": "JOBS",
+  "nav.schoolYears": "SCHOOL YEARS",
+  "nav.materials": "MATERIALS",
+  "nav.donations": "DONATIONS",
+  "nav.users": "USERS",
+
+
+  "brand.name": "Mohamadi Zongo",
+  "brand.subtitle": "Freelance Full Stack Developer",
+
+  "nav.home": "Home",
+  "nav.services": "Services",
+  "nav.projects": "Projects",
+  "nav.about": "About",
+  "nav.contact": "Contact",
+  "nav.cta": "Contact me",
+  "nav.openMenu": "Open menu",
+  "nav.closeMenu": "Close menu",
+
+  "homepage.seo.title": "Freelance Full Stack Developer — Next.js & Laravel",
+  "homepage.seo.description": "Freelance portfolio focused on modern web development with Next.js, Laravel, TypeScript and Tailwind CSS.",
+
+  "homepage.hero.badge": "Next.js & Laravel Freelancer",
+  "homepage.hero.title": "I build modern, fast and multilingual websites and web applications.",
+  "homepage.hero.description": "As a freelance Full Stack developer, I help freelancers, startups and businesses create clean, performant and maintainable web experiences.",
+  "homepage.hero.primaryCta": "View my projects",
+  "homepage.hero.secondaryCta": "Contact me",
+
+  "homepage.services.title": "Services",
+  "homepage.services.websites.title": "Modern websites",
+  "homepage.services.websites.description": "Creation of fast, responsive and SEO-friendly showcase websites.",
+  "homepage.services.apps.title": "Web applications",
+  "homepage.services.apps.description": "Custom interfaces and features built with Next.js, Laravel and TypeScript.",
+  "homepage.services.optimization.title": "Optimization & maintenance",
+  "homepage.services.optimization.description": "Performance improvements, technical refactoring, bug fixing and evolution of existing projects.",
+
+  "homepage.stack.title": "Tech stack",
+
+  "footer.description": "Freelance portfolio focused on building modern websites and web applications with Next.js, Laravel and TypeScript.",
+  "footer.navigation": "Navigation",
+  "footer.contact": "Contact",
+  "footer.copyright": "All rights reserved.",
+  "footer.legal": "Legal notice",
+  "footer.privacy": "Privacy policy",
+
+
+  "homepage.hero.point1": "Fast websites",
+  "homepage.hero.point2": "Web applications",
+  "homepage.hero.point3": "Multilingual",
+
+  "homepage.services.badge": "Expertise",
+  "homepage.services.description": "I support web projects from design to launch with a clear, modern and maintainable approach.",
+
+  "homepage.stack.badge": "Technologies",
+  "homepage.stack.description": "A modern stack to build fast interfaces, clean architectures and durable web experiences."
+
+
+
+
+  
+
+  
+}
