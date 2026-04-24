@@ -63,7 +63,194 @@
   "homepage.services.description": "J’accompagne les projets web de la conception à la mise en ligne avec une approche claire, moderne et maintenable.",
 
   "homepage.stack.badge": "Technologies",
-  "homepage.stack.description": "Une stack moderne pour créer des interfaces rapides, des architectures propres et des expériences web durables."
+  "homepage.stack.description": "Une stack moderne pour créer des interfaces rapides, des architectures propres et des expériences web durables.",
+
+  "services.hero.badge": "Services",
+  "services.hero.title": "Des solutions web modernes pour avancer plus vite.",
+  "services.hero.description": "Je conçois des sites et applications web performants, maintenables et adaptés à vos objectifs business.",
+  "services.hero.primaryCta": "Discuter de mon projet",
+  "services.hero.secondaryCta": "Voir mes projets",
+
+  "services.includes": "Ce que ça inclut",
+
+  "services.items.websites.title": "Sites vitrines modernes",
+  "services.items.websites.description": "Des sites rapides, responsive et bien structurés pour présenter votre activité avec une image professionnelle.",
+  "services.items.websites.point1": "Design responsive et moderne",
+  "services.items.websites.point2": "Structure SEO propre",
+  "services.items.websites.point3": "Performance et accessibilité",
+
+  "services.items.apps.title": "Applications web sur mesure",
+  "services.items.apps.description": "Des interfaces et fonctionnalités adaptées à vos besoins, avec une architecture claire et évolutive.",
+  "services.items.apps.point1": "Frontend Next.js performant",
+  "services.items.apps.point2": "Architecture propre et scalable",
+  "services.items.apps.point3": "Expérience utilisateur fluide",
+
+  "services.items.optimization.title": "Optimisation & maintenance",
+  "services.items.optimization.description": "J’améliore les performances, corrige les problèmes et fais évoluer vos projets existants.",
+  "services.items.optimization.point1": "Audit technique",
+  "services.items.optimization.point2": "Optimisation performance",
+  "services.items.optimization.point3": "Corrections et évolutions",
+
+  "services.items.multilingual.title": "Sites multilingues",
+  "services.items.multilingual.description": "Mise en place d’une structure multilingue claire pour toucher plusieurs marchés sans complexifier le projet.",
+  "services.items.multilingual.point1": "Routes localisées",
+  "services.items.multilingual.point2": "Contenus FR / EN",
+  "services.items.multilingual.point3": "SEO international de base",
+
+  "services.process.badge": "Méthode",
+  "services.process.title": "Un process simple, clair et efficace.",
+  "services.process.description": "Chaque projet avance avec une méthode lisible, de la première discussion à la livraison.",
+
+  "services.process.step1.title": "Découverte",
+  "services.process.step1.description": "On clarifie vos objectifs, vos besoins et les priorités du projet.",
+
+  "services.process.step2.title": "Structure",
+  "services.process.step2.description": "Je prépare l’architecture, les pages, les composants et les contenus clés.",
+
+  "services.process.step3.title": "Développement",
+  "services.process.step3.description": "Je développe une solution propre, responsive et facile à maintenir.",
+
+  "services.process.step4.title": "Livraison",
+  "services.process.step4.description": "Tests, ajustements, mise en ligne et accompagnement après livraison.",
+
+  "services.cta.badge": "Prêt à démarrer ?",
+  "services.cta.title": "Parlons de votre prochain projet web.",
+  "services.cta.description": "Expliquez-moi votre besoin, et je vous aiderai à définir une solution simple, claire et efficace.",
+  "services.cta.primaryCta": "Me contacter",
+  "services.cta.secondaryCta": "Voir mes projets",
+
+
+  "projects.hero.badge": "Projets",
+  "projects.hero.title": "Des réalisations pensées pour être rapides, propres et maintenables.",
+  "projects.hero.description": "Une sélection de projets web conçus avec une approche moderne : performance, lisibilité, expérience utilisateur et structure durable.",
+  "projects.hero.cta": "Parler d’un projet",
+
+  "projects.card.link": "Voir le projet",
+
+  "projects.items.portfolio.type": "Portfolio multilingue",
+  "projects.items.portfolio.title": "Portfolio freelance moderne",
+  "projects.items.portfolio.description": "Création d’un portfolio rapide, multilingue et orienté conversion avec une architecture simple et maintenable.",
+
+  "projects.items.saas.type": "Application web",
+  "projects.items.saas.title": "Dashboard SaaS",
+  "projects.items.saas.description": "Interface d’administration moderne avec tableaux de bord, gestion de données et intégration API.",
+
+  "projects.items.showcase.type": "Site vitrine",
+  "projects.items.showcase.title": "Site vitrine premium",
+  "projects.items.showcase.description": "Site professionnel optimisé pour présenter une activité, générer des contacts et améliorer la visibilité.",
+
+  "projects.cta.badge": "Un projet similaire ?",
+  "projects.cta.title": "Construisons une solution web claire et performante.",
+  "projects.cta.description": "Expliquez-moi votre besoin et voyons comment créer un site ou une application simple, moderne et efficace.",
+  "projects.cta.primaryCta": "Me contacter",
+  "projects.cta.secondaryCta": "Voir mes services",
+
+  
+  "about.hero.title": "Développeur Full Stack freelance.",
+  "about.hero.description": "Je conçois des applications web modernes, performantes et maintenables.",
+
+  "about.content.p1": "Je travaille principalement avec Next.js et Laravel.",
+  "about.content.p2": "Mon objectif est de créer des solutions simples et efficaces.",
+  "about.content.p3": "Je privilégie la clarté du code et la performance.",
+
+  "about.values.title": "Ma façon de travailler",
+
+  "about.values.clarity.title": "Clarté",
+  "about.values.clarity.description": "Code lisible et structuré.",
+
+  "about.values.performance.title": "Performance",
+  "about.values.performance.description": "Applications rapides et optimisées.",
+
+  "about.values.simplicity.title": "Simplicité",
+  "about.values.simplicity.description": "Pas de complexité inutile.",
+
+  "about.cta.title": "Un projet en tête ?",
+  "about.cta.description": "Discutons ensemble de votre besoin.",
+  "about.cta.button": "Me contacter",
+
+  
+  "about.content.p1": "Je suis Mohamadi Zongo, développeur Full Stack freelance spécialisé en Next.js, Laravel et applications web modernes.",
+  "about.content.p2": "Mon activité est déclarée en entreprise individuelle depuis mai 2024, dans le domaine de la programmation informatique.",
+  "about.content.p3": "J’aide les indépendants, entreprises et porteurs de projets à créer des sites et applications web rapides, maintenables et adaptés à leurs objectifs.",
+
+  
+  "contact.badge": "Contact",
+  "contact.title": "Parlons de votre projet",
+  "contact.description": "Décrivez votre besoin et je vous répondrai rapidement.",
+
+  "contact.form.title": "Envoyer un message",
+  "contact.form.name": "Votre nom",
+  "contact.form.email": "Votre email",
+  "contact.form.message": "Votre message",
+  "contact.form.submit": "Envoyer",
+
+  "contact.info.title": "Informations",
+  "contact.info.description": "Développeur freelance disponible pour vos projets web.",
+  "contact.info.name": "Nom",
+
+  "contact.form.badge": "Message",
+"contact.form.description": "Donnez-moi quelques détails sur votre projet, votre besoin ou votre objectif.",
+
+
+  "projectDetail.sidebar.stack": "Stack utilisée",
+  "projectDetail.sidebar.highlights": "Points clés",
+
+  "projectDetail.portfolio-multilingue.badge": "Portfolio multilingue",
+  "projectDetail.portfolio-multilingue.title": "Portfolio freelance moderne",
+  "projectDetail.portfolio-multilingue.description": "Un portfolio rapide, clair et multilingue pensé pour présenter une activité freelance avec une image professionnelle.",
+  "projectDetail.portfolio-multilingue.context.title": "Contexte",
+  "projectDetail.portfolio-multilingue.context.description": "L’objectif était de créer une présence en ligne simple, crédible et orientée conversion pour présenter des services de développement web.",
+  "projectDetail.portfolio-multilingue.challenge.title": "Défi",
+  "projectDetail.portfolio-multilingue.challenge.description": "Le site devait rester simple à maintenir, sans backend, tout en proposant une expérience multilingue claire et un rendu premium.",
+  "projectDetail.portfolio-multilingue.solution.title": "Solution",
+  "projectDetail.portfolio-multilingue.solution.description": "Mise en place d’une architecture Next.js avec contenu local, routes localisées, composants réutilisables et design system léger.",
+  "projectDetail.portfolio-multilingue.result.title": "Résultat",
+  "projectDetail.portfolio-multilingue.result.description": "Un site rapide, responsive, facile à faire évoluer et aligné avec les attentes d’un portfolio freelance moderne.",
+  "projectDetail.portfolio-multilingue.highlight1": "Structure multilingue FR / EN",
+  "projectDetail.portfolio-multilingue.highlight2": "Design premium responsive",
+  "projectDetail.portfolio-multilingue.highlight3": "Aucun backend nécessaire",
+
+  "projectDetail.dashboard-saas.badge": "Application web",
+  "projectDetail.dashboard-saas.title": "Dashboard SaaS",
+  "projectDetail.dashboard-saas.description": "Une interface d’administration moderne pour gérer des données, visualiser des indicateurs et connecter une API.",
+  "projectDetail.dashboard-saas.context.title": "Contexte",
+  "projectDetail.dashboard-saas.context.description": "Le projet consiste à concevoir une base d’application web claire pour gérer des données métier dans un environnement SaaS.",
+  "projectDetail.dashboard-saas.challenge.title": "Défi",
+  "projectDetail.dashboard-saas.challenge.description": "Il fallait proposer une interface lisible, rapide et capable d’évoluer avec de nouvelles fonctionnalités.",
+  "projectDetail.dashboard-saas.solution.title": "Solution",
+  "projectDetail.dashboard-saas.solution.description": "Création d’une structure frontend Next.js connectable à une API Laravel, avec composants modulaires et logique claire.",
+  "projectDetail.dashboard-saas.result.title": "Résultat",
+  "projectDetail.dashboard-saas.result.description": "Une base solide pour construire un produit web administrable, maintenable et scalable.",
+  "projectDetail.dashboard-saas.highlight1": "Interface dashboard moderne",
+  "projectDetail.dashboard-saas.highlight2": "Architecture prête pour API",
+  "projectDetail.dashboard-saas.highlight3": "Composants réutilisables",
+
+  "projectDetail.site-vitrine-premium.badge": "Site vitrine",
+  "projectDetail.site-vitrine-premium.title": "Site vitrine premium",
+  "projectDetail.site-vitrine-premium.description": "Un site vitrine élégant, rapide et optimisé pour présenter une activité professionnelle.",
+  "projectDetail.site-vitrine-premium.context.title": "Contexte",
+  "projectDetail.site-vitrine-premium.context.description": "Le besoin était de créer un site simple, crédible et agréable à parcourir pour présenter une offre de service.",
+  "projectDetail.site-vitrine-premium.challenge.title": "Défi",
+  "projectDetail.site-vitrine-premium.challenge.description": "Le site devait être léger, rapide et clair, sans complexité inutile.",
+  "projectDetail.site-vitrine-premium.solution.title": "Solution",
+  "projectDetail.site-vitrine-premium.solution.description": "Conception d’un layout moderne avec sections lisibles, CTA visibles, responsive propre et optimisation SEO de base.",
+  "projectDetail.site-vitrine-premium.result.title": "Résultat",
+  "projectDetail.site-vitrine-premium.result.description": "Une vitrine professionnelle prête à convertir les visiteurs en prospects.",
+  "projectDetail.site-vitrine-premium.highlight1": "Design clair et premium",
+  "projectDetail.site-vitrine-premium.highlight2": "SEO technique de base",
+  "projectDetail.site-vitrine-premium.highlight3": "Navigation simple",
+
+  "projectDetail.cta.badge": "Vous avez un projet similaire ?",
+  "projectDetail.cta.title": "Créons une solution web adaptée à votre besoin.",
+  "projectDetail.cta.description": "Parlez-moi de votre idée, de vos objectifs et de vos contraintes. Je vous aiderai à construire une solution claire et efficace.",
+  "projectDetail.cta.primaryCta": "Me contacter",
+  "projectDetail.cta.secondaryCta": "Retour aux projets"
+
+
+
+
+
+
 
 
 

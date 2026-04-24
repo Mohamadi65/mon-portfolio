@@ -5,29 +5,28 @@ import type { Locale } from "@/lib/i18n-config";
 import { Navbar } from "@/components/layout/navbar";
 import { SiteFooter } from "@/components/layout/site-footer";
 
-import ContactHero from "./contact-hero";
-import ContactForm from "./contact-form";
-import ContactInfos from "./contact-infos";
+import AboutHero from "./about-hero";
+import AboutContent from "./about-content";
+import AboutValues from "./about-values";
+import AboutCta from "./about-cta";
 
 type Props = {
   dictionary: Record<string, string>;
   locale: Locale | string;
 };
 
-export default function ContactPageClient({ dictionary, locale }: Props) {
+export default function AboutPageClient({ dictionary, locale }: Props) {
   const t = (key: string) => dictionary?.[key] ?? key;
 
   return (
     <div className="min-h-screen bg-slate-50 pt-[88px] text-slate-950">
       <Navbar t={t} />
 
-      <main className="container-page py-16 lg:py-20">
-        <ContactHero t={t} />
-
-        <div className="mt-12 grid gap-10 lg:grid-cols-2">
-          <ContactForm t={t} />
-          <ContactInfos t={t} />
-        </div>
+      <main>
+        <AboutHero t={t} />
+        <AboutContent t={t} />
+        <AboutValues t={t} />
+        <AboutCta t={t} locale={String(locale)} />
       </main>
 
       <SiteFooter t={t} />
