@@ -1,37 +1,22 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ExternalLink, Github, Lock } from "lucide-react";
+
+import { projects } from "@/components/projects/projects-data";
 
 type Props = {
   t: (key: string) => string;
   locale: string;
 };
 
-const projects = [
-  {
-    key: "projects.items.portfolio",
-    slug: "portfolio-multilingue",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "i18n"],
-  },
-  {
-    key: "projects.items.saas",
-    slug: "dashboard-saas",
-    stack: ["Next.js", "Laravel", "MySQL", "API REST"],
-  },
-  {
-    key: "projects.items.showcase",
-    slug: "site-vitrine-premium",
-    stack: ["Next.js", "SEO", "Tailwind CSS"],
-  },
-];
-
 export default function ProjectsGrid({ t, locale }: Props) {
   return (
     <section className="bg-slate-50 py-14 lg:py-16">
       <div className="container-page">
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {projects.map((project, index) => (
             <motion.article
               key={project.slug}
@@ -42,15 +27,14 @@ export default function ProjectsGrid({ t, locale }: Props) {
               className="card card-hover overflow-hidden"
             >
               <div className="relative h-52 overflow-hidden bg-slate-100">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(37,99,235,0.22),transparent_20rem)]" />
-                <div className="absolute inset-x-6 top-8 rounded-2xl border border-white/60 bg-white/80 p-4 shadow-xl backdrop-blur">
-                  <div className="h-3 w-24 rounded-full bg-slate-200" />
-                  <div className="mt-5 space-y-3">
-                    <div className="h-4 w-full rounded-full bg-slate-200" />
-                    <div className="h-4 w-4/5 rounded-full bg-slate-200" />
-                    <div className="h-4 w-2/3 rounded-full bg-slate-200" />
-                  </div>
-                </div>
+                <Image
+                  src={project.image}
+                  alt={t(`${project.key}.imageAlt`)}
+                  fill
+                  sizes="(min-width: 1280px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover transition duration-500 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent" />
               </div>
 
               <div className="p-6">
@@ -77,13 +61,44 @@ export default function ProjectsGrid({ t, locale }: Props) {
                   ))}
                 </div>
 
-                <Link
-                  href={`/${locale}/projects/${project.slug}`}
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-slate-950 transition hover:text-blue-700"
-                >
-                  {t("projects.card.link")}
-                  <ArrowUpRight className="h-4 w-4" />
-                </Link>
+                <div className="mt-6 flex flex-wrap items-center gap-3">
+                  <Link
+                    href={`/${locale}/projects/${project.slug}`}
+                    className="inline-flex items-center gap-2 text-sm font-bold text-slate-950 transition hover:text-blue-700"
+                  >
+                    {t("projects.card.link")}
+                    <ArrowUpRight className="h-4 w-4" />
+                  </Link>
+
+                  {project.liveUrl && (
+                    <Link
+                      href={project.liveUrl}
+                      target={project.liveUrl.startsWith("http") ? "_blank" : undefined}
+                      rel={project.liveUrl.startsWith("http") ? "noreferrer" : undefined}
+                      className="inline-flex items-center gap-2 text-sm font-bold text-blue-700 transition hover:text-blue-900"
+                    >
+                      {t("projects.card.visit")}
+                      <ExternalLink className="h-4 w-4" />
+                    </Link>
+                  )}
+
+                  {project.githubUrl ? (
+                    <Link
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-bold text-slate-700 transition hover:text-slate-950"
+                    >
+                      GitHub
+                      <Github className="h-4 w-4" />
+                    </Link>
+                  ) : (
+                    <span className="inline-flex items-center gap-2 text-sm font-bold text-slate-400">
+                      GitHub privé
+                      <Lock className="h-4 w-4" />
+                    </span>
+                  )}
+                </div>
               </div>
             </motion.article>
           ))}

@@ -244,7 +244,92 @@
   "projectDetail.cta.title": "Créons une solution web adaptée à votre besoin.",
   "projectDetail.cta.description": "Parlez-moi de votre idée, de vos objectifs et de vos contraintes. Je vous aiderai à construire une solution claire et efficace.",
   "projectDetail.cta.primaryCta": "Me contacter",
-  "projectDetail.cta.secondaryCta": "Retour aux projets"
+  "projectDetail.cta.secondaryCta": "Retour aux projets",
+
+  
+  "projects.card.link": "Voir le projet",
+  "projects.card.visit": "Consulter le site",
+
+  "projects.items.portfolio.type": "Portfolio multilingue",
+  "projects.items.portfolio.title": "Portfolio freelance moderne",
+  "projects.items.portfolio.description": "Portfolio rapide, premium et multilingue pour présenter mes services, projets et prises de contact.",
+  "projects.items.portfolio.imageAlt": "Aperçu du portfolio freelance",
+
+  "projects.items.baobabs.type": "Application Full Stack",
+  "projects.items.baobabs.title": "Les Baobabs de Sapaga",
+  "projects.items.baobabs.description": "Site public et espace de gestion pour une association, avec données familles, enfants, dons, scolarité et statistiques.",
+  "projects.items.baobabs.imageAlt": "Aperçu du projet Les Baobabs de Sapaga",
+
+  "projects.items.mazamet.type": "Application club sportif",
+  "projects.items.mazamet.title": "Mazamet Aïkido Judo",
+  "projects.items.mazamet.description": "Plateforme complète pour gérer actualités, événements, galeries, licenciés, cours, documents PDF et contenus éditoriaux.",
+  "projects.items.mazamet.imageAlt": "Aperçu du projet Mazamet Aïkido Judo",
+
+  "projects.items.usmn.type": "Frontend connecté API",
+  "projects.items.usmn.title": "US Montagne Noire",
+  "projects.items.usmn.description": "Site officiel connecté à une API REST pour afficher automatiquement matchs, résultats, scores, calendriers et classements.",
+  "projects.items.usmn.imageAlt": "Aperçu du projet US Montagne Noire",
+
+  "projectDetail.baobabs-sapaga.badge": "Application humanitaire",
+"projectDetail.baobabs-sapaga.title": "Les Baobabs de Sapaga",
+"projectDetail.baobabs-sapaga.description": "Plateforme complète de gestion pour une association au Burkina Faso : suivi des familles, enfants, scolarité et dons.",
+
+"projectDetail.baobabs-sapaga.context.title": "Contexte",
+"projectDetail.baobabs-sapaga.context.description": "L'association avait besoin d’un outil centralisé pour suivre les familles, les enfants et la distribution des aides, tout en facilitant la transparence des dons.",
+
+"projectDetail.baobabs-sapaga.challenge.title": "Challenge",
+"projectDetail.baobabs-sapaga.challenge.description": "Créer une application robuste et simple d’utilisation dans un contexte avec des données sensibles, tout en garantissant sécurité, accessibilité et performance.",
+
+"projectDetail.baobabs-sapaga.solution.title": "Solution",
+"projectDetail.baobabs-sapaga.solution.description": "Développement d’une application full stack avec dashboard, gestion des données, statistiques et API sécurisée pour centraliser toutes les informations.",
+
+"projectDetail.baobabs-sapaga.result.title": "Résultat",
+"projectDetail.baobabs-sapaga.result.description": "Un outil fiable permettant à l’association de mieux gérer ses actions, d’améliorer la transparence et de gagner un temps considérable.",
+
+"projectDetail.baobabs-sapaga.highlight1": "Gestion complète des familles et enfants",
+"projectDetail.baobabs-sapaga.highlight2": "Dashboard avec statistiques en temps réel",
+"projectDetail.baobabs-sapaga.highlight3": "API sécurisée et scalable",
+
+"projectDetail.mazamet-aikido-judo.badge": "Application club sportif",
+"projectDetail.mazamet-aikido-judo.title": "Mazamet Aïkido Judo",
+"projectDetail.mazamet-aikido-judo.description": "Plateforme complète pour gérer un club de judo : contenus, événements, licenciés, cours et médiathèque.",
+
+"projectDetail.mazamet-aikido-judo.context.title": "Contexte",
+"projectDetail.mazamet-aikido-judo.context.description": "Le club souhaitait moderniser son site avec un espace public et un back-office pour gérer facilement ses contenus et ses membres.",
+
+"projectDetail.mazamet-aikido-judo.challenge.title": "Challenge",
+"projectDetail.mazamet-aikido-judo.challenge.description": "Construire une solution complète intégrant gestion de contenu avancée, documents PDF, images et administration intuitive.",
+
+"projectDetail.mazamet-aikido-judo.solution.title": "Solution",
+"projectDetail.mazamet-aikido-judo.solution.description": "Développement d’un système complet avec éditeur d’articles, gestion des événements, médiathèque et intégration Cloudflare pour les médias.",
+
+"projectDetail.mazamet-aikido-judo.result.title": "Résultat",
+"projectDetail.mazamet-aikido-judo.result.description": "Une plateforme moderne et autonome permettant au club de gérer facilement son contenu et sa communication.",
+
+"projectDetail.mazamet-aikido-judo.highlight1": "Éditeur d’articles dynamique avec médias",
+"projectDetail.mazamet-aikido-judo.highlight2": "Gestion complète des licenciés et événements",
+"projectDetail.mazamet-aikido-judo.highlight3": "Stockage optimisé via Cloudflare",
+
+"projectDetail.us-montagne-noire.badge": "Frontend connecté API",
+"projectDetail.us-montagne-noire.title": "US Montagne Noire",
+"projectDetail.us-montagne-noire.description": "Site officiel connecté à une API permettant d’afficher automatiquement matchs, résultats et classements.",
+
+"projectDetail.us-montagne-noire.context.title": "Contexte",
+"projectDetail.us-montagne-noire.context.description": "Le club souhaitait un site moderne sans gestion manuelle des données sportives (matchs, scores, classements).",
+
+"projectDetail.us-montagne-noire.challenge.title": "Challenge",
+"projectDetail.us-montagne-noire.challenge.description": "Intégrer une API externe fiable et afficher dynamiquement des données sportives en temps réel sans backend personnalisé.",
+
+"projectDetail.us-montagne-noire.solution.title": "Solution",
+"projectDetail.us-montagne-noire.solution.description": "Création d’un frontend Next.js connecté à une API REST avec affichage dynamique des matchs, résultats et classement.",
+
+"projectDetail.us-montagne-noire.result.title": "Résultat",
+"projectDetail.us-montagne-noire.result.description": "Un site autonome, toujours à jour, sans intervention manuelle du club.",
+
+"projectDetail.us-montagne-noire.highlight1": "Données en temps réel via API",
+"projectDetail.us-montagne-noire.highlight2": "Aucune gestion manuelle nécessaire",
+"projectDetail.us-montagne-noire.highlight3": "PWA installable sur mobile"
+
 
 
 

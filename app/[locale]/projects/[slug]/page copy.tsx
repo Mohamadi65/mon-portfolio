@@ -5,7 +5,6 @@ import fr from "@/lib/dictionaries/fr.json";
 import en from "@/lib/dictionaries/en.json";
 
 import ProjectDetailClient from "@/components/projects/project-detail-client";
-import { projectSlugs } from "@/components/projects/projects-data";
 
 type Messages = Record<string, string>;
 
@@ -14,13 +13,19 @@ const dictionaries: Record<Locale, Messages> = {
   en: en as Messages,
 };
 
+const projects = [
+  "portfolio-multilingue",
+  "dashboard-saas",
+  "site-vitrine-premium",
+];
+
 function isLocale(value: string): value is Locale {
   return locales.includes(value as Locale);
 }
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
-    projectSlugs.map((slug) => ({
+    projects.map((slug) => ({
       locale,
       slug,
     }))
@@ -34,7 +39,7 @@ export default async function ProjectDetailPage({
 }) {
   const { locale, slug } = await params;
 
-  if (!isLocale(locale) || !projectSlugs.includes(slug)) {
+  if (!isLocale(locale) || !projects.includes(slug)) {
     notFound();
   }
 

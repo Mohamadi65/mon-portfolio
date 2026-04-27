@@ -35,7 +35,7 @@ export default function ProjectsCta({ t, locale }: Props) {
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href={`/${locale}/contact`}
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-bold text-slate-950 transition hover:bg-slate-100"
+                className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-bold btn-secondary transition hover:bg-slate-100"
               >
                 {t("projects.cta.primaryCta")}
               </Link>
