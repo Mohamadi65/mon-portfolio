@@ -44,22 +44,30 @@ export default async function Page({
   const base = getBaseUrl();
   const url = `${base}/${locale}`;
 
-  const personLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Ton Nom",
-    jobTitle: "Développeur Full Stack Freelance",
-    url,
-    knowsAbout: ["Next.js", "Laravel", "TypeScript", "Tailwind CSS"],
-  };
+const personLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Mohamadi Zongo",
+  jobTitle:
+    locale === "fr"
+      ? "Développeur Full Stack Freelance"
+      : "Freelance Full Stack Developer",
+  url,
+  image: `${base}/logo.png`,
+  knowsAbout: ["Next.js", "Laravel", "TypeScript", "Tailwind CSS", "API REST"],
+  sameAs: [
+    "https://github.com/Mohamadi65",
+    
+  ],
+};
 
-  const websiteLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Portfolio",
-    url: `${base}/${defaultLocale}`,
-    inLanguage: locale,
-  };
+const websiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Mohamadi Zongo — Portfolio",
+  url: `${base}/${defaultLocale}`,
+  inLanguage: locale,
+};
 
   return (
     <>
