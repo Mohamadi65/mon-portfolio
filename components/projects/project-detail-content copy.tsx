@@ -3,19 +3,22 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
-import { projects } from "@/components/projects/projects-data";
-
 type Props = {
   t: (key: string) => string;
   slug: string;
+};
+
+const stacks: Record<string, string[]> = {
+  "portfolio-multilingue": ["Next.js", "TypeScript", "Tailwind CSS", "i18n"],
+  "dashboard-saas": ["Next.js", "Laravel", "MySQL", "REST API"],
+  "site-vitrine-premium": ["Next.js", "Tailwind CSS", "SEO", "Responsive"],
 };
 
 const sections = ["context", "challenge", "solution", "result"];
 
 export default function ProjectDetailContent({ t, slug }: Props) {
   const baseKey = `projectDetail.${slug}`;
-  const project = projects.find((item) => item.slug === slug);
-  const stack = project?.stack ?? [];
+  const stack = stacks[slug] ?? [];
 
   return (
     <section className="bg-slate-50 py-14 lg:py-16">

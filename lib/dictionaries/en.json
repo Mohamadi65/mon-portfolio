@@ -322,7 +322,35 @@
 
 "projectDetail.us-montagne-noire.highlight1": "Real-time API data",
 "projectDetail.us-montagne-noire.highlight2": "No manual updates required",
-"projectDetail.us-montagne-noire.highlight3": "Installable PWA"
+"projectDetail.us-montagne-noire.highlight3": "Installable PWA",
+
+"legal.badge": "Legal information",
+"legal.title": "Legal notice",
+"legal.description": "Find the legal information related to this portfolio website.",
+"legal.section1.title": "Website publisher",
+"legal.section1.text": "This website is published by Mohamadi Zongo, freelance Full Stack developer.\nWebsite: https://mohamadizongo.com",
+"legal.section2.title": "Contact",
+"legal.section2.text": "For any request, you can contact me through the website contact form or by email.",
+"legal.section3.title": "Hosting",
+"legal.section3.text": "This website is hosted by Vercel Inc.",
+"legal.section4.title": "Intellectual property",
+"legal.section4.text": "All content on this website, unless otherwise stated, is the property of Mohamadi Zongo. Any reproduction without permission is prohibited.",
+"legal.section5.title": "Liability",
+"legal.section5.text": "The information on this website is provided for informational purposes. Despite careful attention to the content, errors or omissions may exist.",
+
+"privacy.badge": "Privacy",
+"privacy.title": "Privacy policy",
+"privacy.description": "This page explains how personal data may be collected and used on this website.",
+"privacy.section1.title": "Collected data",
+"privacy.section1.text": "When you use the contact form, the information submitted may only be used to respond to your request.",
+"privacy.section2.title": "Use of data",
+"privacy.section2.text": "The data submitted is not sold, shared or used for advertising purposes.",
+"privacy.section3.title": "Retention period",
+"privacy.section3.text": "Received messages may be kept for the time necessary to process the request.",
+"privacy.section4.title": "Cookies",
+"privacy.section4.text": "This website does not use advertising cookies. Technical cookies may be used for the proper functioning of the website.",
+"privacy.section5.title": "Your rights",
+"privacy.section5.text": "You may request access, correction or deletion of your personal data by contacting me."
 
 
 

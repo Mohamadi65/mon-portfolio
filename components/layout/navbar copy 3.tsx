@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -10,9 +9,9 @@ import { LanguageSelector } from "@/components/language-selector";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetTrigger,
+  SheetClose,
 } from "@/components/ui/sheet";
 
 type NavbarProps = {
@@ -56,24 +55,16 @@ export function Navbar({ t }: NavbarProps) {
   return (
     <header className="fixed left-0 top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex h-[88px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href={`/${locale}`} className="flex min-w-[220px] items-center gap-3">
-          <Image
-            src="/logo1.png"
-            alt={t("brand.name")}
-            width={44}
-            height={44}
-            priority
-            className="h-11 w-11 rounded-xl object-contain"
-          />
-
-          <div className="flex flex-col leading-tight">
-            <span className="text-base font-bold text-slate-950">
-              {t("brand.name")}
-            </span>
-            <span className="mt-1 text-xs text-slate-500">
-              {t("brand.subtitle")}
-            </span>
-          </div>
+        <Link
+          href={`/${locale}`}
+          className="flex min-w-[220px] flex-col leading-tight"
+        >
+          <span className="text-base font-bold text-slate-950">
+            {t("brand.name")}
+          </span>
+          <span className="mt-1 text-xs text-slate-500">
+            {t("brand.subtitle")}
+          </span>
         </Link>
 
         <nav className="hidden items-center justify-center gap-2 lg:flex">
@@ -127,17 +118,8 @@ export function Navbar({ t }: NavbarProps) {
               className="w-[85%] bg-white text-slate-950 sm:w-[360px]"
             >
               <div className="flex items-center justify-between border-b border-slate-200 pb-4">
-                <Link href={`/${locale}`} className="flex items-center gap-3">
-                  <Image
-                    src="/mon-logo.png"
-                    alt={t("brand.name")}
-                    width={40}
-                    height={40}
-                    className="h-10 w-10 rounded-xl object-contain"
-                  />
-                  <span className="font-bold text-slate-950">
-                    {t("brand.name")}
-                  </span>
+                <Link href={`/${locale}`} className="font-bold text-slate-950">
+                  {t("brand.name")}
                 </Link>
 
                 <SheetClose asChild>

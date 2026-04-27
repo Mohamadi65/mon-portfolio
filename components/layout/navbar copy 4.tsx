@@ -58,7 +58,7 @@ export function Navbar({ t }: NavbarProps) {
       <div className="mx-auto flex h-[88px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={`/${locale}`} className="flex min-w-[220px] items-center gap-3">
           <Image
-            src="/logo1.png"
+            src="/mon-logo.png"
             alt={t("brand.name")}
             width={44}
             height={44}

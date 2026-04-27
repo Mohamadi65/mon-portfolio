@@ -328,7 +328,35 @@
 
 "projectDetail.us-montagne-noire.highlight1": "Données en temps réel via API",
 "projectDetail.us-montagne-noire.highlight2": "Aucune gestion manuelle nécessaire",
-"projectDetail.us-montagne-noire.highlight3": "PWA installable sur mobile"
+"projectDetail.us-montagne-noire.highlight3": "PWA installable sur mobile",
+
+"legal.badge": "Informations légales",
+"legal.title": "Mentions légales",
+"legal.description": "Retrouvez les informations légales relatives à ce site portfolio.",
+"legal.section1.title": "Éditeur du site",
+"legal.section1.text": "Ce site est édité par Mohamadi Zongo, développeur Full Stack freelance.\nSite web : https://mohamadizongo.com",
+"legal.section2.title": "Contact",
+"legal.section2.text": "Pour toute demande, vous pouvez me contacter via le formulaire de contact du site ou par email.",
+"legal.section3.title": "Hébergement",
+"legal.section3.text": "Le site est hébergé par Vercel Inc.",
+"legal.section4.title": "Propriété intellectuelle",
+"legal.section4.text": "L’ensemble des contenus présents sur ce site, sauf mention contraire, est la propriété de Mohamadi Zongo. Toute reproduction sans autorisation est interdite.",
+"legal.section5.title": "Responsabilité",
+"legal.section5.text": "Les informations présentes sur ce site sont fournies à titre indicatif. Malgré le soin apporté au contenu, des erreurs ou omissions peuvent exister.",
+
+"privacy.badge": "Confidentialité",
+"privacy.title": "Politique de confidentialité",
+"privacy.description": "Cette page explique comment les données personnelles peuvent être collectées et utilisées sur ce site.",
+"privacy.section1.title": "Données collectées",
+"privacy.section1.text": "Lorsque vous utilisez le formulaire de contact, les informations saisies peuvent être utilisées uniquement pour répondre à votre demande.",
+"privacy.section2.title": "Utilisation des données",
+"privacy.section2.text": "Les données transmises ne sont pas revendues, partagées ou utilisées à des fins publicitaires.",
+"privacy.section3.title": "Durée de conservation",
+"privacy.section3.text": "Les messages reçus peuvent être conservés le temps nécessaire au traitement de la demande.",
+"privacy.section4.title": "Cookies",
+"privacy.section4.text": "Ce site n’utilise pas de cookies publicitaires. Des cookies techniques peuvent être utilisés pour le bon fonctionnement du site.",
+"privacy.section5.title": "Vos droits",
+"privacy.section5.text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données personnelles en me contactant."
 
 
 

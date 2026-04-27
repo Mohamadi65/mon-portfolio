@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -23,35 +22,16 @@ export function SiteFooter({ t }: SiteFooterProps) {
     <footer className="bg-slate-950 py-12 text-slate-300">
       <div className="container-page">
         <div className="grid gap-10 border-b border-slate-800 pb-10 md:grid-cols-4">
-          
-          {/* 🔥 Bloc Logo + Description */}
           <div className="md:col-span-2">
-            <Link href={`/${locale}`} className="flex items-center gap-4 ">
-              <Image 
-                src="/logo1.png"
-                alt={t("brand.name")}
-                width={64}
-                height={64}
-                className="h-16 w-16 object-contain rounded-full bg-white"
-                quality={100}
-              />
+            <h3 className="text-lg font-semibold text-white">
+              {t("brand.name")}
+            </h3>
 
-              <div>
-                <h3 className="text-lg font-semibold text-white">
-                  {t("brand.name")}
-                </h3>
-                <p className="text-xs text-slate-400">
-                  {t("brand.subtitle")}
-                </p>
-              </div>
-            </Link>
-
-            <p className="mt-5 max-w-md text-sm leading-6 text-slate-400">
+            <p className="mt-3 max-w-md text-sm leading-6 text-slate-400">
               {t("footer.description")}
             </p>
           </div>
 
-          {/* Navigation */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-200">
               {t("footer.navigation")}
@@ -73,7 +53,6 @@ export function SiteFooter({ t }: SiteFooterProps) {
             </div>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-200">
               {t("footer.contact")}
@@ -108,7 +87,6 @@ export function SiteFooter({ t }: SiteFooterProps) {
           </div>
         </div>
 
-        {/* Bas footer */}
         <div className="flex flex-col justify-between gap-4 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center">
           <p>
             © {new Date().getFullYear()} {t("brand.name")}.{" "}
