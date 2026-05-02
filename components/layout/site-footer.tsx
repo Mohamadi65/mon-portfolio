@@ -84,7 +84,7 @@ export function SiteFooter({ t }: SiteFooterProps) {
                 href={`mailto:${t("contact.email")}`}
                 className="block transition hover:text-white"
               >
-                {t("contact.email")}
+              freelancemohamadi65@gmail.com
               </a>
 
               <a
