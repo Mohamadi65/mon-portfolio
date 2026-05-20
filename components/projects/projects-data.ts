@@ -10,20 +10,19 @@ export type ProjectItem = {
 
 export const projects: ProjectItem[] = [
   {
-    key: "projects.items.portfolio",
-    slug: "portfolio-multilingue",
-    image: "/projects/portfolio.png",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "i18n"],
-    liveUrl: "/",
-    githubUrl: "https://github.com/Mohamadi65/mon-portfolio.git",
-    githubPrivate: false,
-  },
-  {
     key: "projects.items.baobabs",
     slug: "baobabs-sapaga",
     image: "/projects/baobabs-sapaga.png",
     stack: ["Next.js", "Laravel", "Sanctum", "Tailwind CSS", "MySQL"],
     liveUrl: "https://www.baobabsdesapaga.org/",
+    githubPrivate: true,
+  },
+  {
+    key: "projects.items.gites",
+    slug: "gite-tantrigue",
+    image: "/projects/gites.png",
+    stack: ["Next.js", "Laravel", "Sanctum", "Tailwind CSS", "MySQL"],
+    liveUrl: "https://www.gites-tantrigue.fr/",
     githubPrivate: true,
   },
   {
@@ -42,6 +41,15 @@ export const projects: ProjectItem[] = [
     liveUrl: "https://usmontagnenoire.fr/",
     githubPrivate: true,
   },
+{
+  key: "projects.items.portfolio",
+  slug: "portfolio-multilingue",
+  image: "/projects/portfolio.png",
+  stack: ["Next.js", "TypeScript", "Tailwind CSS", "i18n"],
+  liveUrl: "/",
+  githubUrl: "https://github.com/Mohamadi65/mon-portfolio.git",
+  githubPrivate: false,
+},
 ];
 
 export const projectSlugs = projects.map((project) => project.slug);

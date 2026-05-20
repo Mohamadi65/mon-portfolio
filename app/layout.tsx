@@ -20,23 +20,23 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Développeur Full Stack Freelance dans l’Aude et en Occitanie — Mohamadi Zongo",
+      "Développeur Full Stack Freelance Toulouse",
     template: "%s | Développeur Full Stack Freelance",
   },
 
   description:
-    "Développeur Full Stack freelance dans l’Aude et en Occitanie, spécialisé en Next.js, Laravel, TypeScript et Tailwind CSS. Création de sites web modernes, applications web, dashboards et plateformes sur mesure.",
+    "Développeur Full Stack freelance à Toulouse, spécialisé en Next.js, Laravel, TypeScript et Tailwind CSS. Création de sites web modernes, applications web, dashboards et plateformes sur mesure.",
 
   keywords: [
     "développeur full stack freelance",
     "développeur web freelance",
-    "développeur web Aude",
-    "développeur freelance Aude",
+    "développeur web Toulouse",
+    "développeur freelance Toulouse",
     "développeur web Occitanie",
     "développeur freelance Occitanie",
     "développeur Next.js freelance",
     "développeur Laravel freelance",
-    "création site web Aude",
+    "création site web Toulouse",
     "création site web Occitanie",
     "application web sur mesure",
     "dashboard web",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Développeur Full Stack Freelance",
     title:
-      "Développeur Full Stack Freelance dans l’Aude et en Occitanie — Mohamadi Zongo",
+      "Développeur Full Stack Freelance à Toulouse",
     description:
       "Création de sites web modernes, applications web, dashboards et plateformes sur mesure avec Next.js, Laravel, TypeScript et Tailwind CSS.",
     images: [
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Développeur Full Stack Freelance dans l’Aude et en Occitanie",
+        alt: "Développeur Full Stack Freelance à Toulouse",
       },
     ],
   },
@@ -80,9 +80,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Développeur Full Stack Freelance dans l’Aude et en Occitanie — Mohamadi Zongo",
+      "Développeur Full Stack Freelance à Toulouse — Mohamadi Zongo",
     description:
-      "Création de sites web modernes, applications web et dashboards dans l’Aude et en Occitanie.",
+      "Création de sites web modernes, applications web et dashboards à Toulouse.",
     images: ["/opengraph-image.png"],
   },
 

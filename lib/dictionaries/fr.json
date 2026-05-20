@@ -356,7 +356,32 @@
 "privacy.section4.title": "Cookies",
 "privacy.section4.text": "Ce site n’utilise pas de cookies publicitaires. Des cookies techniques peuvent être utilisés pour le bon fonctionnement du site.",
 "privacy.section5.title": "Vos droits",
-"privacy.section5.text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données personnelles en me contactant."
+"privacy.section5.text": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données personnelles en me contactant.",
+
+"projects.items.gites.type": "Plateforme de réservation",
+"projects.items.gites.title": "Gîtes Tantrigue",
+"projects.items.gites.description": "Plateforme de réservation de gîtes avec calendrier dynamique, gestion des disponibilités, dashboard administrateur et optimisation SEO.",
+"projects.items.gites.imageAlt": "Aperçu du projet Gîtes Tantrigue",
+
+"projectDetail.gite-tantrigue.badge": "Plateforme de réservation",
+"projectDetail.gite-tantrigue.title": "Gîtes Tantrigue",
+"projectDetail.gite-tantrigue.description": "Plateforme moderne de réservation de gîtes avec gestion des disponibilités, demandes clients et administration complète.",
+
+"projectDetail.gite-tantrigue.context.title": "Contexte",
+"projectDetail.gite-tantrigue.context.description": "Le projet consistait à créer une plateforme complète pour présenter plusieurs gîtes, gérer les disponibilités et centraliser les demandes de réservation.",
+
+"projectDetail.gite-tantrigue.challenge.title": "Challenge",
+"projectDetail.gite-tantrigue.challenge.description": "Construire une expérience fluide entre le calendrier public, les réservations, le dashboard administrateur et les contraintes de gestion des nuits.",
+
+"projectDetail.gite-tantrigue.solution.title": "Solution",
+"projectDetail.gite-tantrigue.solution.description": "Développement d’une application full stack avec calendrier dynamique, gestion des disponibilités, dashboard sécurisé et optimisation SEO avancée.",
+
+"projectDetail.gite-tantrigue.result.title": "Résultat",
+"projectDetail.gite-tantrigue.result.description": "Une plateforme moderne, responsive et performante permettant de gérer facilement les réservations et la visibilité en ligne des gîtes.",
+
+"projectDetail.gite-tantrigue.highlight1": "Calendrier de réservation dynamique",
+"projectDetail.gite-tantrigue.highlight2": "Dashboard administrateur complet",
+"projectDetail.gite-tantrigue.highlight3": "SEO avancé et multilingue"
 
 
 

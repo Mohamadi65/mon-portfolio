@@ -350,7 +350,32 @@
 "privacy.section4.title": "Cookies",
 "privacy.section4.text": "This website does not use advertising cookies. Technical cookies may be used for the proper functioning of the website.",
 "privacy.section5.title": "Your rights",
-"privacy.section5.text": "You may request access, correction or deletion of your personal data by contacting me."
+"privacy.section5.text": "You may request access, correction or deletion of your personal data by contacting me.",
+
+"projects.items.gites.type": "Booking platform",
+"projects.items.gites.title": "Gîtes Tantrigue",
+"projects.items.gites.description": "Gîte booking platform with dynamic calendar, availability management, admin dashboard and advanced SEO.",
+"projects.items.gites.imageAlt": "Gîtes Tantrigue project preview",
+
+"projectDetail.gite-tantrigue.badge": "Booking platform",
+"projectDetail.gite-tantrigue.title": "Gîtes Tantrigue",
+"projectDetail.gite-tantrigue.description": "Modern gîte booking platform with availability management, customer requests and complete administration.",
+
+"projectDetail.gite-tantrigue.context.title": "Context",
+"projectDetail.gite-tantrigue.context.description": "The goal was to build a complete platform to showcase multiple gîtes, manage availability and centralize booking requests.",
+
+"projectDetail.gite-tantrigue.challenge.title": "Challenge",
+"projectDetail.gite-tantrigue.challenge.description": "Build a smooth experience between the public calendar, bookings, admin dashboard and night management constraints.",
+
+"projectDetail.gite-tantrigue.solution.title": "Solution",
+"projectDetail.gite-tantrigue.solution.description": "Development of a full stack application with dynamic booking calendar, availability management, secure dashboard and advanced SEO optimization.",
+
+"projectDetail.gite-tantrigue.result.title": "Result",
+"projectDetail.gite-tantrigue.result.description": "A modern, responsive and performant platform allowing easy booking management and improved online visibility.",
+
+"projectDetail.gite-tantrigue.highlight1": "Dynamic booking calendar",
+"projectDetail.gite-tantrigue.highlight2": "Complete admin dashboard",
+"projectDetail.gite-tantrigue.highlight3": "Advanced SEO and multilingual setup"
 
 
 
